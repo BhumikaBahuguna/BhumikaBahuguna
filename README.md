@@ -77,8 +77,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhumikaBahuguna&layout=compact&theme=tokyonight&hide_border=true" alt="Bhumika's Top Languages" />
 </div>
 
-> **Note on Stats/Streak:** If your streak or stats seem incorrect, it is often because commits were made to private repositories! The `&count_private=true` flag has been added, but you must also **enable private contributions** on your GitHub Profile settings (Settings > Public Profile > "Include private contributions on my profile").
-
 ---
 
 ### 🎯 Fun Facts & Goals
