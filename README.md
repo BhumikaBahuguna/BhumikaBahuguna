@@ -22,25 +22,18 @@
 
 ## 💫 About Me
 
-```python
-class Bhumika:
-    name        = "Bhumika Bahuguna"
-    role        = "Third-Year CSE Undergrad & Backend Developer"
-    location    = "India 🇮🇳"
+Hi, I'm **Bhumika** — a third-year CSE undergrad from India who loves building backend systems that are fast, clean, and actually useful.
 
-    focus       = ["FastAPI", "Distributed Systems", "MLOps"]
-    interests   = ["Backend Dev", "Machine Learning", "Cloud Architecture", "DevOps"]
-    building    = ["FinishIt", "Notes Summarizer", "Source-to-Source Compiler"]
+I spend most of my time thinking about **distributed systems, API design, and how to make AI work in the real world**. My current obsessions are FastAPI, MLOps pipelines, and system design patterns that scale.
 
-    passion     = "Turning complex problems into clean, scalable solutions"
-    superpower  = "Turning ☕ into high-performance backend code"
-    motto       = "Code. Learn. Optimize. Repeat."
+**What I'm building right now:**
+- 🗂️ **FinishIt** — an AI-powered productivity manager with Eisenhower matrix prioritization and LLaMA 3 coaching
+- 📄 **Notes Summarizer** — a hybrid OCR + LLM pipeline that turns messy handwritten notes into exam-ready study materials
+- ⚙️ **Source-to-Source Compiler** — a full transpiler (Lexer → Parser → Semantic Analyzer → Code Gen) built from scratch in pure Python
 
-    def __init__(self):
-        self.open_to           = ["Internships", "Open Source", "Collaborations"]
-        self.currently_learning = "System Design + MLOps pipelines"
-        self.fun_fact           = "I debug faster with lo-fi music playing 🎧"
-```
+Open to **internships, open source collaborations, and interesting problems worth solving**.
+
+> *"Code. Learn. Optimize. Repeat."*
 
 ---
 
