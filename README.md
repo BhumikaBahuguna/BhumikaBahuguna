@@ -27,18 +27,20 @@ class Bhumika:
     name        = "Bhumika Bahuguna"
     role        = "Third-Year CSE Undergrad & Backend Developer"
     location    = "India 🇮🇳"
+
     focus       = ["FastAPI", "Distributed Systems", "MLOps"]
-    currently   = ["FinishIt", "Notes Summarizer", "Source-to-Source Compiler"]
+    interests   = ["Backend Dev", "Machine Learning", "Cloud Architecture", "DevOps"]
+    building    = ["FinishIt", "Notes Summarizer", "Source-to-Source Compiler"]
+
     passion     = "Turning complex problems into clean, scalable solutions"
     superpower  = "Turning ☕ into high-performance backend code"
     motto       = "Code. Learn. Optimize. Repeat."
-```
 
-- 🎓 **Third-Year CSE Undergrad** deeply passionate about building scalable, impactful tech.
-- 💡 Core interests: **Backend Development, Machine Learning, Cloud Architecture & DevOps.**
-- 🌱 Currently mastering **FastAPI, Distributed Systems, and MLOps.**
-- 🔭 Focused on contributing to impactful open-source projects & AI-integrated web apps.
-- ⚡ **Fun fact:** I love writing clean, optimized code and solving complex problems with creative logic!
+    def __init__(self):
+        self.open_to           = ["Internships", "Open Source", "Collaborations"]
+        self.currently_learning = "System Design + MLOps pipelines"
+        self.fun_fact           = "I debug faster with lo-fi music playing 🎧"
+```
 
 ---
 
