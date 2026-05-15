@@ -28,7 +28,7 @@ class Bhumika:
     role        = "Third-Year CSE Undergrad & Backend Developer"
     location    = "India 🇮🇳"
     focus       = ["FastAPI", "Distributed Systems", "MLOps"]
-    currently   = ["Warehouse Storage & Retrieval System", "AI Course Builder"]
+    currently   = ["FinishIt", "Notes Summarizer", "Source-to-Source Compiler"]
     passion     = "Turning complex problems into clean, scalable solutions"
     superpower  = "Turning ☕ into high-performance backend code"
     motto       = "Code. Learn. Optimize. Repeat."
@@ -106,12 +106,39 @@ class Bhumika:
 
 ## 🚀 Featured Projects
 
-| 🏷️ Project | 📝 Description | 🛠️ Stack |
-|---|---|---|
-| 🏬 **Warehouse Storage & Retrieval System** | Automates end-to-end warehouse operations with smart inventory management | FastAPI · MySQL · React.js |
-| 🎓 **Smart Internship Finder** | Personalized internship recommendations powered by data analytics | R · Shiny · Data Viz |
-| 🧩 **AI Course Builder** | Generates complete structured learning courses using GenAI & NLP | GenAI · NLP · Prompt Engineering |
-| 👗 **Kiddie Couture** | Predicts kids' clothing sizes using ensemble ML classifiers | SVM · Logistic Regression · Random Forest |
+### ✅ FinishIt — AI-Powered Productivity Manager
+
+> A production-quality productivity management system built for students who are serious about getting things done.
+
+**What it does:** Combines task management, habit tracking, and AI-driven coaching into a single unified dashboard. Tasks are prioritized through the Eisenhower Matrix (urgent vs. important quadrants), habits are logged daily with streak calculations, and an AI Assistant powered by LLaMA 3 (via Groq) provides personalized planning advice — aware of your actual tasks and habits. Deadlines sync bidirectionally with Google Calendar.
+
+**Architecture:** React 18 + Vite frontend communicates directly with Supabase (PostgreSQL + GoTrue Auth) via the PostgREST API. Protected routes enforce JWT-based authentication. The AI Assistant gathers full user context (tasks, habits, matrix state) and sends it to the Groq API in a structured system prompt for truly personalized insights.
+
+**Stack:** `React 18` · `Vite 6` · `React Router 6` · `Supabase` · `PostgreSQL` · `Groq API (LLaMA 3)` · `Google Calendar API`
+
+---
+
+### 📄 Notes Summarizer — Hybrid OCR + AI Study Assistant
+
+> Upload any document — handwritten notes, scanned textbooks, messy PDFs — and get back structured, exam-ready study materials in seconds.
+
+**What it does:** Ingests PDFs and images through a hybrid OCR pipeline (Azure Document Intelligence → PaddleOCR fallback), cleans extracted text with LLMs, then generates adaptive summaries, flashcards, quizzes, concept maps (Mermaid.js), cheat sheets, and YouTube search queries. Three study modes — Quick Revision, Deep Study, and Exam Preparation — tune every output to your cognitive goal. A stateless, privacy-first architecture means no data ever touches a database.
+
+**Architecture:** FastAPI backend orchestrates the full async pipeline. Summarization uses a parallel racing strategy — Groq and Gemini both process the document simultaneously and the first valid response wins, masking latency spikes. A regex pre-filter strips OCR artifacts before LLMs ever see the text, saving tokens and preventing hallucinations.
+
+**Stack:** `FastAPI` · `React` · `Vite` · `Tailwind CSS` · `Azure Document Intelligence` · `PaddleOCR` · `Gemini` · `Groq` · `Mermaid.js` · `pypdfium2`
+
+---
+
+### ⚙️ Source-to-Source Compiler (Transpiler)
+
+> A full compiler pipeline that translates code between Python, C, and C++ — built entirely from scratch, without any parsing libraries.
+
+**What it does:** Implements every stage of a production compiler: Preprocessor → Lexer → Recursive Descent Parser → Two-Pass Semantic Analyzer → IR Generator → Code Generator → Behavioral Validator. Python's semantic whitespace is handled via an indent stack that emits `INDENT`/`DEDENT` tokens, letting the parser treat indentation identically to `{}`  blocks. A dynamic validator compiles the generated C/C++ with GCC and compares its output against the original Python execution to verify behavioral parity. Every stage is visualized in an interactive Flask web UI.
+
+**Architecture:** The core insight is a language-neutral AST (`ast_nodes.py`) — once source is parsed into standardized nodes like `IfStmt`, `ForRangeStmt`, and `BinaryOp`, the code generator doesn't need to know the original language. The two-pass semantic analyzer maps all global declarations in pass one, then recursively validates types and scope in pass two.
+
+**Stack:** `Python 3.8+` · `Flask` · `Vanilla JS` · `HTML5/CSS3` · `GCC` · `G++`
 
 ---
 
