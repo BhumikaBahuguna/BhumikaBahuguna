@@ -1,53 +1,37 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Bhumika%20Bahuguna&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20CSE%20Undergrad&descAlignY=55&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Bhumika%20Bahuguna&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20%26%20AI%20Systems%20%7C%20CSE%20Undergrad%20%7C%20Building%20Things%20That%20Work&descAlignY=58&descSize=15"/>
 
-<!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&width=600&lines=Building+Scalable+Backend+Systems+%F0%9F%9A%80;Passionate+about+AI+%2F+ML+%26+MLOps+%F0%9F%A4%96;FastAPI+%7C+Distributed+Systems+%7C+DevOps+%E2%9A%99%EF%B8%8F;Clean+Code+%7C+Creative+Logic+%7C+Real+Impact+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Backend+%2B+AI+systems+from+scratch+%F0%9F%94%A7;Compiler+builder+%7C+LLM+pipelines+%7C+FastAPI+%F0%9F%9A%80;Currently+learning+Agentic+AI+%26+MCP+%F0%9F%A4%96;Open+to+Summer+Internships+%E2%9C%85" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Profile Views + Followers + Repos -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=BhumikaBahuguna&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/BhumikaBahuguna?label=Followers&style=flat-square&color=0e75b6" alt="Followers" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=BhumikaBahuguna&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/BhumikaBahuguna?label=Followers&style=flat-square&color=0e75b6" alt="Followers" />
 
 </div>
 
 ---
 
-## 💫 About Me
+## About Me
 
-Hi, I'm **Bhumika** — a third-year CSE undergrad from India who loves building backend systems that are fast, clean, and actually useful.
+I'm a third-year CSE undergrad who builds backend systems and AI pipelines.
 
-I spend most of my time thinking about **distributed systems, API design, and how to make AI work in the real world**. My current obsessions are FastAPI, MLOps pipelines, and system design patterns that scale.
+Most of what I build falls into one of two categories: things that handle data well at scale, and things that make AI actually useful rather than just impressive. Lately those two categories keep overlapping.
 
-**What I'm building right now:**
-- 🗂️ **FinishIt** — an AI-powered productivity manager with Eisenhower matrix prioritization and LLaMA 3 coaching
-- 📄 **Notes Summarizer** — a hybrid OCR + LLM pipeline that turns messy handwritten notes into exam-ready study materials
-- ⚙️ **Source-to-Source Compiler** — a full transpiler (Lexer → Parser → Semantic Analyzer → Code Gen) built from scratch in pure Python
+I wrote a source-to-source compiler from scratch (Lexer → Parser → Semantic Analyzer → Code Gen) because I wanted to understand what happens between the code you write and the code that runs. I built an AI productivity manager because I kept using bad ones. I'm currently learning **agentic AI and MCP pipelines** because that's where the interesting backend problems are going to be.
 
-Open to **internships, open source collaborations, and interesting problems worth solving**.
+**What I'm open to:**
+Summer 2025 internships in backend engineering, AI/ML systems, or full-stack roles. Remote-friendly. Also open to open source contributions on projects I find interesting.
 
-> *"Code. Learn. Optimize. Repeat."*
-
----
-
-## 🌐 Connect with Me
-
-<p align="left">
+<p>
   <a href="https://www.linkedin.com/in/bhumika-bahuguna-6b068a306" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:bhumika.bahuguna@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/BhumikaBahuguna" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://bhumikabahuguna.github.io/My_Portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
@@ -56,93 +40,96 @@ Open to **internships, open source collaborations, and interesting problems wort
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## Projects
 
-### 💻 Languages
+These are the three I'm most proud of right now. Each one taught me something the textbooks didn't cover.
+
+---
+
+### FinishIt — AI Productivity Manager
+
+A task and habit manager with an actual brain behind it. Not just a to-do list wrapper around an LLM — the AI assistant has full context of your tasks, habits, and matrix state before it says anything.
+
+**The interesting part:** Eisenhower Matrix prioritization running in real time on a React + Supabase architecture, with Google Calendar bidirectional sync. JWT auth, protected routes, and the AI runs on Groq (LLaMA 3) with a structured system prompt built fresh from user data each session.
+
+`React 18` · `Vite` · `Supabase (PostgreSQL + GoTrue)` · `Groq API / LLaMA 3` · `Google Calendar API`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BhumikaBahuguna)
+
+---
+
+### Notes Summarizer — OCR + LLM Study Pipeline
+
+Upload a photo of your handwritten notes. Get back flashcards, concept maps, quizzes, and a cheat sheet. Stateless and privacy-first — nothing touches a database.
+
+**The interesting part:** Azure Document Intelligence handles primary OCR with PaddleOCR as fallback. Summarization uses a parallel racing strategy — Groq and Gemini both process simultaneously and the first valid response wins. This masks latency spikes without paying for a single provider's worst-case timing. A regex pre-filter strips OCR artifacts before any LLM sees the text, saving tokens and preventing hallucinations on garbage input.
+
+`FastAPI` · `React` · `Tailwind CSS` · `Azure Document Intelligence` · `PaddleOCR` · `Gemini` · `Groq` · `Mermaid.js`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BhumikaBahuguna)
+
+---
+
+### Source-to-Source Compiler (Python → C / C++)
+
+A full transpiler built from scratch in Python — no parsing libraries, no shortcuts. Translates Python code to C and C++ through every stage a production compiler runs.
+
+**The interesting part:** Python's semantic whitespace is the hard problem. I solved it with an indent stack that emits `INDENT`/`DEDENT` tokens, letting the parser treat indentation identically to `{}` blocks. The two-pass semantic analyzer maps all globals in pass one, then validates types and scope in pass two. A behavioral validator compiles the generated C/C++ with GCC and diffs its output against the original Python execution to verify correctness. Every stage is visualized in a Flask web UI.
+
+**What I learned:** A language-neutral AST is the key insight — once source is parsed into standardized nodes (`IfStmt`, `ForRangeStmt`, `BinaryOp`), the code generator doesn't need to know the origin language. I'd never have understood that from a textbook.
+
+`Python 3.8+` · `Flask` · `Vanilla JS` · `GCC / G++`
+
+[![Repo](https://img.shields.io/badge/View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/BhumikaBahuguna)
+
+---
+
+## Tech Stack
+
+Things I've actually used in the projects above.
+
+### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### ⚙️ Frameworks & Libraries
+### Backend & APIs
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![REST](https://img.shields.io/badge/RESTful_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### ☁️ DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### 🗄️ Databases
+### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-### 🤖 AI & ML
+### AI / ML
+![LLMs](https://img.shields.io/badge/LLMs_(Groq%2FGemini)-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
+![OCR](https://img.shields.io/badge/OCR_(Azure%2FPaddleOCR)-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![MLOps](https://img.shields.io/badge/MLOps-2496ED?style=for-the-badge&logo=linux&logoColor=white)
-![OCR](https://img.shields.io/badge/OCR_(Tesseract)-000000?style=for-the-badge&logo=google&logoColor=white)
 
-### 🔧 APIs & Methodologies
-![REST](https://img.shields.io/badge/RESTful_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-326CE5?style=for-the-badge&logo=docker&logoColor=white)
-![Agile](https://img.shields.io/badge/Agile_/_Scrum-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+### Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
-
-### ✅ FinishIt — AI-Powered Productivity Manager
-
-> A production-quality productivity management system built for students who are serious about getting things done.
-
-**What it does:** Combines task management, habit tracking, and AI-driven coaching into a single unified dashboard. Tasks are prioritized through the Eisenhower Matrix (urgent vs. important quadrants), habits are logged daily with streak calculations, and an AI Assistant powered by LLaMA 3 (via Groq) provides personalized planning advice — aware of your actual tasks and habits. Deadlines sync bidirectionally with Google Calendar.
-
-**Architecture:** React 18 + Vite frontend communicates directly with Supabase (PostgreSQL + GoTrue Auth) via the PostgREST API. Protected routes enforce JWT-based authentication. The AI Assistant gathers full user context (tasks, habits, matrix state) and sends it to the Groq API in a structured system prompt for truly personalized insights.
-
-**Stack:** `React 18` · `Vite 6` · `React Router 6` · `Supabase` · `PostgreSQL` · `Groq API (LLaMA 3)` · `Google Calendar API`
-
----
-
-### 📄 Notes Summarizer — Hybrid OCR + AI Study Assistant
-
-> Upload any document — handwritten notes, scanned textbooks, messy PDFs — and get back structured, exam-ready study materials in seconds.
-
-**What it does:** Ingests PDFs and images through a hybrid OCR pipeline (Azure Document Intelligence → PaddleOCR fallback), cleans extracted text with LLMs, then generates adaptive summaries, flashcards, quizzes, concept maps (Mermaid.js), cheat sheets, and YouTube search queries. Three study modes — Quick Revision, Deep Study, and Exam Preparation — tune every output to your cognitive goal. A stateless, privacy-first architecture means no data ever touches a database.
-
-**Architecture:** FastAPI backend orchestrates the full async pipeline. Summarization uses a parallel racing strategy — Groq and Gemini both process the document simultaneously and the first valid response wins, masking latency spikes. A regex pre-filter strips OCR artifacts before LLMs ever see the text, saving tokens and preventing hallucinations.
-
-**Stack:** `FastAPI` · `React` · `Vite` · `Tailwind CSS` · `Azure Document Intelligence` · `PaddleOCR` · `Gemini` · `Groq` · `Mermaid.js` · `pypdfium2`
-
----
-
-### ⚙️ Source-to-Source Compiler (Transpiler)
-
-> A full compiler pipeline that translates code between Python, C, and C++ — built entirely from scratch, without any parsing libraries.
-
-**What it does:** Implements every stage of a production compiler: Preprocessor → Lexer → Recursive Descent Parser → Two-Pass Semantic Analyzer → IR Generator → Code Generator → Behavioral Validator. Python's semantic whitespace is handled via an indent stack that emits `INDENT`/`DEDENT` tokens, letting the parser treat indentation identically to `{}`  blocks. A dynamic validator compiles the generated C/C++ with GCC and compares its output against the original Python execution to verify behavioral parity. Every stage is visualized in an interactive Flask web UI.
-
-**Architecture:** The core insight is a language-neutral AST (`ast_nodes.py`) — once source is parsed into standardized nodes like `IfStmt`, `ForRangeStmt`, and `BinaryOp`, the code generator doesn't need to know the original language. The two-pass semantic analyzer maps all global declarations in pass one, then recursively validates types and scope in pass two.
-
-**Stack:** `Python 3.8+` · `Flask` · `Vanilla JS` · `HTML5/CSS3` · `GCC` · `G++`
-
----
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BhumikaBahuguna&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhumikaBahuguna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=BhumikaBahuguna&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhumikaBahuguna&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 
 </div>
 
@@ -156,6 +143,14 @@ Open to **internships, open source collaborations, and interesting problems wort
 
 ---
 
+## Currently Learning
+
+- **Agentic AI** — multi-step AI workflows that actually do something end-to-end
+- **MCP (Model Context Protocol)** — building tools that connect LLMs to real systems
+- **System Design** — preparing for internship interviews; focusing on distributed systems patterns
+
+---
+
 ## 🏆 GitHub Trophies
 
 <div align="center">
@@ -164,25 +159,11 @@ Open to **internships, open source collaborations, and interesting problems wort
 
 ---
 
-## 🎯 Current Goals
-
-- [ ] 🚀 Deploy Warehouse System to production with Kubernetes
-- [ ] 🤖 Complete AI Course Builder with full GenAI pipeline
-- [ ] 📦 Contribute to 3+ open-source projects
-- [ ] ☁️ Earn AWS Cloud Practitioner Certification
-- [ ] 📝 Start a technical blog on Backend + MLOps
-
----
-
 <div align="center">
 
-### 💬 Ask me about FastAPI · System Design · Data Structures · Machine Learning
+**Open to internships, collaborations, and interesting problems.**
 
-<br/>
-
-*"Code. Learn. Optimize. Repeat."* ✨
-
-<br/>
+*bhumika.bahuguna@gmail.com*
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
