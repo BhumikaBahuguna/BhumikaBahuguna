@@ -134,7 +134,6 @@ Things I've actually used in the projects above.
 <img src="https://img.shields.io/github/stars/BhumikaBahuguna?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=0e75b6&amp;affiliations=OWNER" alt="Stars" />
 
 </div>
----
 
 ## Streak &amp; Activity
 
