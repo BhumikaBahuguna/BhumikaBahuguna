@@ -159,7 +159,7 @@ Things I've actually used in the projects above.
 
 **Open to internships, collaborations, and interesting problems.**
 
-*bhumika.bahuguna@gmail.com*
+*bhumikabahuguna8@gmail.com*
 
 ---
 
