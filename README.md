@@ -128,22 +128,35 @@ Things I've actually used in the projects above.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=BhumikaBahuguna&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true&amp;count_private=true" alt="GitHub Stats" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhumikaBahuguna&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=6" alt="Top Languages" />
+<!-- Shields.io pulls live from GitHub API - no allowlist, always works -->
+<img src="https://img.shields.io/badge/Total%20Contributions-875-0e75b6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Contributions" />
+<img src="https://img.shields.io/github/followers/BhumikaBahuguna?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=0e75b6" alt="Followers" />
+<img src="https://img.shields.io/github/stars/BhumikaBahuguna?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=0e75b6&amp;affiliations=OWNER" alt="Stars" />
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=BhumikaBahuguna&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="Contribution Graph" />
-</div>
 
+<!-- Per-repo stats for your 3 pinned projects - shields.io, no restrictions -->
+<img src="https://img.shields.io/github/last-commit/BhumikaBahuguna/FinishIt?style=flat-square&amp;label=FinishIt%20last%20commit&amp;color=009688" alt="FinishIt last commit" />
+<img src="https://img.shields.io/github/last-commit/BhumikaBahuguna/Notes_Summarizer?style=flat-square&amp;label=Notes%20Summarizer%20last%20commit&amp;color=009688" alt="Notes Summarizer last commit" />
+<img src="https://img.shields.io/github/last-commit/satyamsiuu/Source_to_Source_Code_Compiler?style=flat-square&amp;label=Compiler%20last%20commit&amp;color=009688" alt="Compiler last commit" />
+
+</div>
 ---
 
-## Trophies
+## Streak &amp; Activity
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=BhumikaBahuguna&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4&amp;row=1" alt="Trophies" />
+
+<img src="https://streak-stats.demolab.com/?user=BhumikaBahuguna&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=BhumikaBahuguna&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="Contribution Graph" />
+
 </div>
 
 ---
