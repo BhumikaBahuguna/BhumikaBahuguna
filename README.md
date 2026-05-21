@@ -134,15 +134,6 @@ Things I've actually used in the projects above.
 <img src="https://img.shields.io/github/stars/BhumikaBahuguna?style=for-the-badge&amp;logo=github&amp;label=Stars&amp;color=0e75b6&amp;affiliations=OWNER" alt="Stars" />
 
 </div>
-
-<div align="center">
-
-<!-- Per-repo stats for your 3 pinned projects - shields.io, no restrictions -->
-<img src="https://img.shields.io/github/last-commit/BhumikaBahuguna/FinishIt?style=flat-square&amp;label=FinishIt%20last%20commit&amp;color=009688" alt="FinishIt last commit" />
-<img src="https://img.shields.io/github/last-commit/BhumikaBahuguna/Notes_Summarizer?style=flat-square&amp;label=Notes%20Summarizer%20last%20commit&amp;color=009688" alt="Notes Summarizer last commit" />
-<img src="https://img.shields.io/github/last-commit/satyamsiuu/Source_to_Source_Code_Compiler?style=flat-square&amp;label=Compiler%20last%20commit&amp;color=009688" alt="Compiler last commit" />
-
-</div>
 ---
 
 ## Streak &amp; Activity
