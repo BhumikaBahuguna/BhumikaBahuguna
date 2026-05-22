@@ -1,11 +1,12 @@
 <div align="center">
 
-<h1>👋 Hi, I'm Bhumika Bahuguna</h1>
+<!-- Custom animated banner - file lives in this repo, never breaks -->
+<img src="./header.svg" width="100%" alt="Bhumika Bahuguna" />
 
-<p><strong>Backend &amp; AI Systems · CSE Undergrad · Building Things That Work</strong></p>
+<br/>
 
-<!-- Typing SVG - reliable external service -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=00D9FF&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Backend+%2B+AI+systems+from+scratch;Compiler+builder+%7C+LLM+pipelines+%7C+FastAPI;Currently+learning+Agentic+AI+%26+MCP;Open+to+Summer+Internships" alt="Typing SVG" />
+<!-- Typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=00D9FF&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Backend+%2B+AI+systems+from+scratch;Compiler+builder+%7C+LLM+pipelines+%7C+FastAPI;Currently+learning+Agentic+AI+%26+MCP;Open+to+Summer+2025+Internships" alt="Typing SVG" />
 
 <br/>
 
@@ -157,12 +158,7 @@ Things I've actually used in the projects above.
 
 <div align="center">
 
-**Open to internships, collaborations, and interesting problems.**
-
-*bhumikabahuguna8@gmail.com*
-
----
-
-*Made with focus and curiosity.*
+<!-- Custom animated footer - file lives in this repo -->
+<img src="./footer.svg" width="100%" alt="Footer" />
 
 </div>
