@@ -1,11 +1,8 @@
 <div align="center">
 
-<!-- Custom animated banner - file lives in this repo, never breaks -->
-<img src="./header.svg" width="100%" alt="Bhumika Bahuguna" />
+<!-- Animated GIF header - stored in repo, always renders on GitHub -->
+<img width="100%" src="./header.gif" alt="Bhumika Bahuguna" />
 
-<br/>
-
-<!-- Typing SVG -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=00D9FF&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Backend+%2B+AI+systems+from+scratch;Compiler+builder+%7C+LLM+pipelines+%7C+FastAPI;Currently+learning+Agentic+AI+%26+MCP;Open+to+Summer+2025+Internships" alt="Typing SVG" />
 
 <br/>
@@ -32,7 +29,7 @@ Summer internships in backend engineering, AI/ML systems, or full-stack roles. R
   <a href="https://www.linkedin.com/in/bhumika-bahuguna-6b068a306" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" />
   </a>
-  <a href="mailto:bhumika.bahuguna@gmail.com" target="_blank">
+  <a href="mailto:bhumikabahuguna8@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" />
   </a>
   <a href="https://bhumikabahuguna.github.io/My_Portfolio/" target="_blank">
@@ -158,7 +155,7 @@ Things I've actually used in the projects above.
 
 <div align="center">
 
-<!-- Custom animated footer - file lives in this repo -->
-<img src="./footer.svg" width="100%" alt="Footer" />
+<!-- Animated GIF footer - stored in repo -->
+<img width="100%" src="./footer.gif" alt="Footer" />
 
 </div>
